@@ -1,0 +1,260 @@
+ul{
+list-style: disc;
+list-style-type: disc;
+list-style-position: inside;
+}
+
+.text label{
+color:rgb(36, 121, 200);
+	font-weight:bold;
+	font-size: small;
+}
+input{
+	size:100;
+}
+.reg{
+	width:30%; 
+	height:150px;
+	padding-left:5px;
+	background-color:#E1E1E1;
+}
+.profile td{
+	color:rgb(36, 121, 200);
+	font-weight:bold;
+	height:30px;
+}
+.article button{
+	
+	width:inherit;
+	font-weight:bold;
+
+	background-color: rgb(36, 121, 164);
+	color: white;
+}
+.submit{
+	color:white;
+	width:80px;
+	font-weight:bold;
+	background-color:black;
+}
+#update_profile{
+	background-color:white;
+}
+.local_header{
+	background-color:#B4B4B4;
+	text-align:center;
+}
+.side_header{
+	background-color:#313186;
+	background-color:#0C37E1;
+	background-color:#1843C2;
+	background-color:#2479A4;
+	color:white;
+	width:inherit;
+	height:30px;
+	border-radius: 10px;
+	text-align:center;
+	padding-top:4px;
+	text-align:center;
+	display:block;
+}
+
+.notification{
+	background-color:#2A7FFF;
+	background-color:#0080FF;
+	margin:0px;
+	font-size:13px;
+	position:absolute;
+	font-size:15px;
+	color:#244FA4;
+	color:white;
+	width:250px;
+	padding-top:0px;
+	padding-left:8px;
+}
+
+#notification li{ 
+	height:30px;
+	
+}
+#my_sidebar{
+	padding-left: 0px;
+	font-weight: bold;
+	background-color: #2479A4;
+	text-align: center;
+}
+#my_sidebar a{
+	color: white;
+	}
+	
+	#my_sidebar a:HOVER{
+	color: rgb(36, 121, 164);
+	background-color: white;
+	
+	padding-left: 2opx;
+	}
+	#login{
+	font-weight: bold;
+	color: white;
+	background-color: rgb(36, 121, 164);
+	font-size: larger;
+	    height: 25px;
+    border-radius: 10px;
+    padding-top: 4px;
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+#legend{
+	font-weight: bold;
+	color: white;
+	background-color: rgb(36, 121, 164);
+	font-size: larger;
+	    height: 25px;
+    border-radius: 10px;
+    padding-top: 4px;
+    text-align: center;
+    display: block;
+    width: 200px;
+  
+}
+	input{
+	border-color: black;
+	border-width: thin;
+	
+	}
+	.button{
+	width: inherit;
+font-weight: bold;
+background-color: rgb(36, 121, 164);
+color: white;
+border-color: white;
+border-width: thin;
+	}
+	.button1{
+	width: inherit;
+font-weight: bold;
+background-color:white ;
+color: rgb(36, 121, 164);
+border-color: white;
+border-width: thin;
+	}
+	.tablecontent{
+	 color:rgb(36, 121, 164);
+	 padding: 3px;
+	}
+	.tablecontent th{
+	background-color:rgb(180,180,180); 
+	color:black;
+	 padding: 5px;
+	 font-size: small;
+	}
+	/* .tablecontent td{
+	background-color:rgb(225,225,225); 
+	text-align: center;
+	font-size:small;
+	 padding: 5px;
+	 font-weight: bold;
+	
+	} */
+	.tablecontent td{
+	background-color:rgb(225,225,225); 
+	text-align: left;
+	font-size:small;
+	 padding: 5px;
+	 /* font-weight: bold; */
+	
+	}
+	.tablelist{
+	 color:rgb(36, 121, 180);
+	 padding: 3px;
+	}
+	.tablelist th{
+	background-color:rgb(36, 121, 180); 
+	color:white;
+	 padding: 5px;
+	 font-size: small;
+	}
+	.tablelist td{
+	background-color:silver; 
+	text-align: center;
+	font-size:small;
+	 padding: 5px;
+	 /* font-weight: bold; */
+	
+	}
+	.msg table{
+	width:90%;
+	
+}
+.msg td{ 
+	height:53px;
+}
+.user{
+	background :url(../images/button.png) no-repeat left;
+	 width:22%;
+}
+
+.sent{
+	background :url(../images/r_arrow.jpg) no-repeat;
+	background-position:left;
+	background-color:#E1E1E1;
+	border-bottom:#7FAAFF groove;
+	border-radius: 10px;
+	text-align:left;
+	padding-left:45px;
+}
+.received{
+	background :url(../images/l_arrow.jpg) no-repeat;
+	background-position:left;
+	background-color:#E1E1E1;
+	border-bottom:#7FAAFF groove;
+	border-radius: 10px;
+	text-align:left;
+	padding-left:45px;
+
+}
+.d_list td{
+	background-color:#E1E1E1;
+	background-color:#AAAAFF;
+	background-color:#C4C4EF;
+	background-color:#2479A4;
+	border-bottom:#2A7FFF groove;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	border-radius: 10px;
+	height:60px;
+	padding-left: 30px;
+}
+.ad_list td{
+	/*  background-color:red;
+	background-color:red;
+	background-color:red; */
+	background-color: rgb(36,131,180);
+	border-bottom:#2A7FFF groove;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	border-radius: 10px;
+	height:20px;
+	padding-left: 30px;
+}	
+.plain_text{
+	color: rgb(36,131,180);
+	font-weight: bold;
+	font-size: small;
+	padding: 5px 0 15px 0;
+	width: 65%;
+	
+	}
+.txt{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	}
+	.date{
+	
+	color: gray;
+	
+	}

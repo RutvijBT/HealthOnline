@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="iface/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/anet-java-sdk-1.4.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/bayeux-api-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cometd-java-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cometd-java-common-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cometd-java-server-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cometd-websocket-jetty-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jdbc_driver.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-continuation-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-http-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-io-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-jmx-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-util-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jetty-websocket-7.6.7.v20120910.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jquery-1.4.2.min.js"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/org.json-0.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/slf4j-simple-1.6.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Rutvij-PC/Downloads/servlet-3_0-final-jar_and_schema.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

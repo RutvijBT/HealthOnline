@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd" 
+version="2.0">
+	<tlibversion>2.0</tlibversion>
+	<jspversion>2.0</jspversion>
+	<shortname>Simple</shortname>
+	<info>Sample taglib for Patient Detail</info>
+	<uri>HealthOnlineTagLibrary</uri>
+		<tag>
+			<name>Answer</name>
+			<tagclass>SimpleTag.Answer</tagclass>
+			<info>Return Corresponding Question's answer, <br /> Give answer, date, doctor </info>
+			<body-content>scriptless</body-content>
+			<attribute>
+		      <name>question</name>
+		      <required>true</required>
+		      <rtexprvalue>true</rtexprvalue>
+		    </attribute>
+		</tag>
+		<tag>
+			<name>Question</name>
+			<tagclass>SimpleTag.PatientQuestion</tagclass>
+			<info>Return Patient's Question by User Id, Give content_id, question(content) </info>
+			<body-content>scriptless</body-content>
+			<attribute>
+		      <name>user</name>
+		      <required>true</required>
+		      <rtexprvalue>true</rtexprvalue>
+		    </attribute>
+		</tag>
+		<tag>
+			<name>Category</name><!-- category_id, category -->
+			<tagclass>SimpleTag.Category</tagclass>
+			<tagclass>SimpleTag.Category, Give category_id, category</tagclass>
+			<info>Return all category </info>
+			<body-content>scriptless</body-content>
+		</tag>
+</taglib> 
